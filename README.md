@@ -33,7 +33,7 @@ py -m streamlit run app.py
 - Walk-forward CV: see the section **Walk-forward validation** below.
 
 ## Walk-forward validation (recommended)
-1. Choose a number of folds or a window size (e.g., train on 2018-2019, validate 2020, then roll forward).
+1. Choose a number of folds or a window size (e.g., train on 2023-2024, validate 2025, then roll forward).
 2. For each step:
    - Train model on the training window.
    - Validate on the next time window (hold-out).
