@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+plotly
+requests
+python-dotenv
+yfinance
+streamlit
+joblib
+ta
+# Optional (large) for real NLP embeddings
+# sentence-transformers
