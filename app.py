@@ -21,7 +21,7 @@ st.markdown("Educational demo. Not financial advice.")
 # Sidebar
 with st.sidebar:
     ticker = st.text_input("Ticker", value="AAPL")
-    start_date = st.date_input("Start date", value=pd.to_datetime("2018-01-01"))
+    start_date = st.date_input("Start date", value=pd.to_datetime("2023-01-01"))
     end_date = st.date_input("End date", value=pd.to_datetime(pd.Timestamp.today().date()))
     seq_len = st.slider("lookback (days)", 10, 120, 30)
     horizon = st.slider("prediction horizon (days)", 1, 10, 5)
